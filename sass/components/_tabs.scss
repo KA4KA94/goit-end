@@ -1,0 +1,113 @@
+  /* TABS */
+  .heading .description {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    margin-bottom: 4px;
+    margin-top: 20px;
+  }
+  
+  .flex-elements {
+    margin-bottom: 30px;
+    height: 404px;
+  }
+  
+  .flex-elements:hover {
+    -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+  
+  .flex-elements .title,
+  .flex-elements .description {
+    padding-left: 24px;
+  }
+  
+  .kia {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .produckt {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .produckt-thumb {
+    position: absolute;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    background: rgba(33, 150, 243, 0.9);
+    opacity: 0;
+    -webkit-transition: -webkit-transform 250ms;
+    transition: -webkit-transform 250ms;
+    transition: transform 250ms;
+    transition: transform 250ms, -webkit-transform 250ms;
+  }
+  
+  .produckt-thumb:hover {
+    opacity: 1;
+  }
+  
+  .flex-elements:hover .produckt-thumb {
+    position: absolute;
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    background: rgba(33, 150, 243, 0.9);
+    opacity: 1;
+  }
+  
+  .produckt-name {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 63px;
+    padding-bottom: 63px;
+    margin: 0;
+    width: 322px;
+    height: 168px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    -webkit-transition: -webkit-transform 250ms;
+    transition: -webkit-transform 250ms;
+    transition: transform 250ms;
+    transition: transform 250ms, -webkit-transform 250ms;
+  }
+  
+  .heading .title {
+    color: var(--second-text-color);
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    margin: 0;
+  }
+  
+.flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-bottom: 95px;
+    padding-left: 0px;
+  }
+  
+  .flex-element:nth-child(3n) {
+    margin-right: 0;
+  }
+  
