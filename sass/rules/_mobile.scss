@@ -1,0 +1,155 @@
+@media screen and (max-width: 480px) {
+    .together{
+        display: none;
+    }
+    .site-nav,
+    .auch-nav{
+        display: none;
+    }
+    
+    .main-nav{
+        padding-top: 16px;
+        padding-bottom: 16px;
+         }
+
+         .container .main-nav{
+            padding: 0;
+         }
+
+
+
+    .container-hero__title{  
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 26px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+    }
+    .team-link{
+        display: block;
+    }
+    .team-link__list{
+        justify-content: center;
+        
+    }
+    .team-link__link{
+        margin-right: 10px; 
+
+    }
+    .features-link{
+        display: block;
+    }
+    .features-link__item{
+    
+    }
+    .features-link__title{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+    }
+    .features-link__paragraph{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+
+/* or 171% */
+letter-spacing: 0.03em;
+}
+
+.section-hero{
+    background-size: cover;
+    height: 400px;
+}
+.team-link__item{
+    margin-bottom: 30px;
+}
+.client{
+    font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 33px;
+}
+.list-client__icon{
+    width: calc((100% - 30px)/2);
+    margin: 5px;
+}
+.list-client{
+    padding: 0;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.container-footer .section1{
+flex-direction: column;
+display: flex;
+align-items: center;
+}
+.footer-title{
+    display: flex;
+}
+.container-footer .section2{
+    margin: 0;
+    padding: 0;
+}
+.text-footer{
+    justify-content: center;
+}
+.button-position{
+    padding-top: 60px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+.mailing{
+    justify-content: center;
+}
+.button-footer{
+    padding: 0;
+    
+}
+.telegram-button{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 60px;
+    
+}
+
+
+
+
+
+.flex-container{
+    justify-content: center;
+    padding-bottom: 0;
+}
+.list-button{
+    flex-wrap: wrap;
+padding-left: 0;
+align-content: flex-start;
+padding-right: 8px;
+padding-bottom: 15px;
+margin-top: 75px;
+}
+.modal{
+    width: calc(100% - 15px);
+
+}
+.agreement .text{
+display: block;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+}
+
+}
