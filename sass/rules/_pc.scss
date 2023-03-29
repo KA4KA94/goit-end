@@ -1,0 +1,46 @@
+@media screen and (min-width: 1200px) and (max-width:2000px){
+    .team-link__item:ntn-last-child{
+        margin-right: 0;
+      }
+      .list-client{
+        display: flex;
+        padding: 0;
+        justify-content: center;
+        padding-bottom: 95px;
+        
+      }
+      .list-client__icon:last-of-type{
+        margin-right: 0;
+
+      }
+      .list-client__icon{
+        margin-right: 30px;
+        padding: 0;
+      }
+      .team-link__item:last-of-type{
+        margin-right: 0;
+      }
+      .team-link__item{
+        margin-right: 30px;
+      }
+      .container-footer{
+        display: flex;
+      }
+      .footer-title{
+        display: flex;
+      }
+      .together .link{
+        font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+margin-top: 0;
+margin-bottom: 50px;
+padding-top: 95px;
+      }
+      .main-nav{
+        display: flex;
+        justify-content:space-between ;
+      }
+}

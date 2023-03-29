@@ -2,6 +2,8 @@
 .main-nav {
   display: -webkit-box;
   display: -ms-flexbox;
+  padding-top: 15px;
+  padding-bottom: 15px;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -570,6 +572,14 @@
   padding-top: 95px;
 }
 
+.together .link {
+  text-align: center;
+}
+
+.together {
+  padding-top: 95px;
+}
+
 .picture-link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -813,9 +823,6 @@
 }
 
 .text-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -832,9 +839,6 @@
 }
 
 .container-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   padding-left: 15px;
   padding-right: 15px;
   max-width: 1270px;
@@ -858,6 +862,7 @@
   margin-right: 40px;
   padding-top: 72px;
   padding-bottom: 93px;
+  padding-left: 80px;
 }
 
 .address {
@@ -933,6 +938,7 @@
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .button-title {
@@ -1136,12 +1142,10 @@
   .auch-nav {
     display: none;
   }
-  .main-nav {
-    padding-top: 16px;
-    padding-bottom: 16px;
-  }
   .container .main-nav {
     padding: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
   .container-hero__title {
     font-family: "Roboto";
@@ -1234,6 +1238,9 @@
     display: -ms-flexbox;
     display: flex;
   }
+  .text-footer {
+    text-align: center;
+  }
   .container-footer .section2 {
     margin: 0;
     padding: 0;
@@ -1297,12 +1304,16 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding-top: 21px;
-    padding-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     gap: 30px;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+  .main-nav {
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
   .auch-nav {
     display: block;
@@ -1357,16 +1368,114 @@
   }
   .container-footer .section2 {
     text-align: center;
+    padding-top: 60px;
+    margin-right: 0;
   }
   .container-footer {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     -ms-flex-pack: distribute;
     justify-content: space-around;
-  }
-  .button-position {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  .text-footer {
+    text-align: center;
+  }
+  .button-position {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 166px;
+    padding-right: 152px;
+    margin: 0;
+  }
+  .mailing input {
+    width: 450px;
+  }
+  .list-button {
+    padding: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .flex-container {
+    padding-bottom: 60px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 30px;
+  }
+  .flex-elements {
+    width: calc((100% - 30px) / 2);
+  }
+  .section-hero {
+    height: 400px;
+  }
+  .box {
+    top: 100%;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 2000px) {
+  .team-link__item:ntn-last-child {
+    margin-right: 0;
+  }
+  .list-client {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 95px;
+  }
+  .list-client__icon:last-of-type {
+    margin-right: 0;
+  }
+  .list-client__icon {
+    margin-right: 30px;
+    padding: 0;
+  }
+  .team-link__item:last-of-type {
+    margin-right: 0;
+  }
+  .team-link__item {
+    margin-right: 30px;
+  }
+  .container-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .footer-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .together .link {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding-top: 95px;
+  }
+  .main-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }/*# sourceMappingURL=main.css.map */

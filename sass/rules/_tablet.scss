@@ -3,12 +3,16 @@
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between;
-        padding-top: 21px;
-        padding-bottom: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
         gap: 30px;
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
+    }
+    .main-nav{
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
     .auch-nav{
         display: block;
@@ -55,17 +59,49 @@
         text-align: center;
     }
     .container-footer .section2{
-        
         text-align: center;
+padding-top: 60px;
+margin-right: 0;
     }
     .container-footer{
 -ms-flex-wrap: wrap;
 flex-wrap: wrap;
 -ms-flex-pack: distribute;
 justify-content: space-around;
+display: flex;
+    }
+    .text-footer{
+        text-align: center;
     }
     .button-position{
+        flex-direction: column;
         display: flex;
-    }
+        align-items: center;
+        padding-left: 166px;
+        padding-right: 152px;
+        margin: 0;
+      }
+      .mailing input{
+        width: 450px;
+      }
+      .list-button{
+        padding: 0;
+        justify-content: center;
+      }
+      .flex-container{
+        padding-bottom: 60px;
+        flex-wrap: wrap;
+        gap: 30px;
+      }
+      .flex-elements{
+        width: calc((100% - 30px)/2);
+      }
+      .section-hero{
+        height: 400px;
+      }
+      .box{
+        top: 100%;
+      }
+
 
 }
